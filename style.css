@@ -1,8 +1,15 @@
 body {
     font-family: Arial;
-    background-color: #f4f4f4;
     text-align: center;
-    
+    margin: 0;
+    padding: 0;
+
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                url('https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
 }
 
 h1 {
