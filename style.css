@@ -5,11 +5,12 @@ body {
     padding: 0;
 
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                url('https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0');
+                url('images/background.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     color: white;
+
 }
 
 h1 {
@@ -30,6 +31,8 @@ h1 {
 
 .produk img {
     width: 100%;
+    height: 180px;
+    object-fit: cover;
     border-radius: 10px;
 }
 
@@ -131,4 +134,51 @@ a:hover {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
+}
+.about p {
+    color: black;
+}
+.produk {
+    background: white;
+    color: black;
+}
+
+.produk h3 {
+    color: black;
+}
+
+.produk p {
+    color: black;
+    font-weight: bold;
+}
+/* Responsive HP */
+@media screen and (max-width: 768px) {
+
+    .produk {
+        width: 90%;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .header h1 {
+        font-size: 28px;
+    }
+
+    .header p {
+        font-size: 16px;
+    }
+
+    .navbar a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    .about {
+        width: 90%;
+        margin: 20px auto;
+    }
 }
